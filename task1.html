@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<head>
+		<title>looping</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+<body>
+<script>
+
+	
+	var a=prompt("Enter number");
+	var sum=0;
+	var rem;
+	 while(a>0){
+	    rem=a%10;
+		
+		sum=(sum*10)+rem;
+		a=(a-rem)/10
+	 }
+	 document.write(sum)
+</script> 
+</body>
+</html>
